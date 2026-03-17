@@ -1,0 +1,212 @@
+2026/03/17 12:38:35 Logging to file: restreamer_2026-03-17.log
+2026/03/17 12:38:35 Starting Go RTSP Restreamer...
+2026/03/17 12:38:35 [StreamManager] Loaded 2 cameras into cache
+2026/03/17 12:38:35 RTSP Server listening on :8554
+2026/03/17 12:38:35 Streaming Mode: OnDemand=false
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> go-restremer/api.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /index.html               --> go-restremer/api.InitRouter.func2 (3 handlers)
+[GIN-debug] GET    /metrics                  --> go-restremer/api.InitRouter.WrapH.func3 (3 handlers)
+[GIN-debug] GET    /api/cameras              --> go-restremer/api.getCameras (3 handlers)
+[GIN-debug] POST   /api/cameras              --> go-restremer/api.createCamera (3 handlers)
+[GIN-debug] GET    /api/streams              --> go-restremer/api.getActiveStreams (3 handlers)
+[GIN-debug] GET    /api/status               --> go-restremer/api.getStatusSummary (3 handlers)
+[GIN-debug] POST   /api/transcode            --> go-restremer/api.handleTranscodeRequest (3 handlers)
+[GIN-debug] GET    /api/config               --> go-restremer/api.getConfig (3 handlers)
+[GIN-debug] GET    /api/network              --> go-restremer/api.getNetworkStats (3 handlers)
+[GIN-debug] POST   /api/system/settings      --> go-restremer/api.updateSystemSettings (3 handlers)
+[GIN-debug] GET    /api/debug                --> go-restremer/api.getDebugInfo (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2026/03/17 14:04:04 Logging to file: restreamer_2026-03-17.log
+2026/03/17 14:04:04 Starting Go RTSP Restreamer...
+2026/03/17 14:04:04 [StreamManager] Loaded 2 cameras into cache
+2026/03/17 14:04:04 RTSP Server listening on :8554
+2026/03/17 14:04:04 Streaming Mode: OnDemand=false
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> go-restremer/api.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /index.html               --> go-restremer/api.InitRouter.func2 (3 handlers)
+[GIN-debug] GET    /metrics                  --> go-restremer/api.InitRouter.WrapH.func3 (3 handlers)
+[GIN-debug] GET    /api/cameras              --> go-restremer/api.getCameras (3 handlers)
+[GIN-debug] POST   /api/cameras              --> go-restremer/api.createCamera (3 handlers)
+[GIN-debug] GET    /api/streams              --> go-restremer/api.getActiveStreams (3 handlers)
+[GIN-debug] GET    /api/status               --> go-restremer/api.getStatusSummary (3 handlers)
+[GIN-debug] POST   /api/transcode            --> go-restremer/api.handleTranscodeRequest (3 handlers)
+[GIN-debug] GET    /api/config               --> go-restremer/api.getConfig (3 handlers)
+[GIN-debug] GET    /api/network              --> go-restremer/api.getNetworkStats (3 handlers)
+[GIN-debug] POST   /api/system/settings      --> go-restremer/api.updateSystemSettings (3 handlers)
+[GIN-debug] GET    /api/debug                --> go-restremer/api.getDebugInfo (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2026/03/17 14:07:54 Logging to file: restreamer_2026-03-17.log
+2026/03/17 14:07:54 Starting Go RTSP Restreamer...
+2026/03/17 14:07:54 [StreamManager] Loaded 2 cameras into cache
+2026/03/17 14:07:54 RTSP Server listening on :8554
+2026/03/17 14:07:54 Streaming Mode: OnDemand=false
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> go-restremer/api.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /index.html               --> go-restremer/api.InitRouter.func2 (3 handlers)
+[GIN-debug] GET    /metrics                  --> go-restremer/api.InitRouter.WrapH.func3 (3 handlers)
+[GIN-debug] GET    /api/cameras              --> go-restremer/api.getCameras (3 handlers)
+[GIN-debug] POST   /api/cameras              --> go-restremer/api.createCamera (3 handlers)
+[GIN-debug] GET    /api/streams              --> go-restremer/api.getActiveStreams (3 handlers)
+[GIN-debug] GET    /api/status               --> go-restremer/api.getStatusSummary (3 handlers)
+[GIN-debug] POST   /api/transcode            --> go-restremer/api.handleTranscodeRequest (3 handlers)
+[GIN-debug] GET    /api/config               --> go-restremer/api.getConfig (3 handlers)
+[GIN-debug] GET    /api/network              --> go-restremer/api.getNetworkStats (3 handlers)
+[GIN-debug] POST   /api/system/settings      --> go-restremer/api.updateSystemSettings (3 handlers)
+[GIN-debug] GET    /api/debug                --> go-restremer/api.getDebugInfo (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2026/03/17 - 14:39:51 | 200 |    2.525246ms |    192.168.1.46 | GET      "/"
+[GIN] 2026/03/17 - 14:39:51 | 404 |       5.092µs |    192.168.1.46 | GET      "/nice ports,/Trinity.txt.bak"
+[GIN] 2026/03/17 - 14:39:51 | 200 |     368.307µs |    192.168.1.46 | GET      "/"
+[GIN] 2026/03/17 - 14:39:51 | 404 |       4.574µs |    192.168.1.46 | OPTIONS  "/"
+2026/03/17 18:33:17 Logging to file: restreamer_2026-03-17.log
+2026/03/17 18:33:17 Starting Go RTSP Restreamer...
+2026/03/17 18:33:18 [StreamManager] Loaded 2 cameras into cache
+2026/03/17 18:33:18 RTSP Server listening on :8554
+2026/03/17 18:33:18 Streaming Mode: OnDemand=false
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> go-restremer/api.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /index.html               --> go-restremer/api.InitRouter.func2 (3 handlers)
+[GIN-debug] GET    /metrics                  --> go-restremer/api.InitRouter.WrapH.func3 (3 handlers)
+[GIN-debug] GET    /api/cameras              --> go-restremer/api.getCameras (3 handlers)
+[GIN-debug] POST   /api/cameras              --> go-restremer/api.createCamera (3 handlers)
+[GIN-debug] GET    /api/streams              --> go-restremer/api.getActiveStreams (3 handlers)
+[GIN-debug] GET    /api/status               --> go-restremer/api.getStatusSummary (3 handlers)
+[GIN-debug] POST   /api/transcode            --> go-restremer/api.handleTranscodeRequest (3 handlers)
+[GIN-debug] GET    /api/config               --> go-restremer/api.getConfig (3 handlers)
+[GIN-debug] GET    /api/network              --> go-restremer/api.getNetworkStats (3 handlers)
+[GIN-debug] POST   /api/system/settings      --> go-restremer/api.updateSystemSettings (3 handlers)
+[GIN-debug] GET    /api/debug                --> go-restremer/api.getDebugInfo (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2026/03/17 19:11:52 Logging to file: restreamer_2026-03-17.log
+2026/03/17 19:11:52 Starting Go RTSP Restreamer...
+2026/03/17 19:11:52 [StreamManager] Loaded 2 cameras into cache
+2026/03/17 19:11:52 RTSP Server listening on :8554
+2026/03/17 19:11:52 Streaming Mode: OnDemand=false
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> go-restremer/api.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /index.html               --> go-restremer/api.InitRouter.func2 (3 handlers)
+[GIN-debug] GET    /metrics                  --> go-restremer/api.InitRouter.WrapH.func3 (3 handlers)
+[GIN-debug] GET    /api/cameras              --> go-restremer/api.getCameras (3 handlers)
+[GIN-debug] POST   /api/cameras              --> go-restremer/api.createCamera (3 handlers)
+[GIN-debug] GET    /api/streams              --> go-restremer/api.getActiveStreams (3 handlers)
+[GIN-debug] GET    /api/status               --> go-restremer/api.getStatusSummary (3 handlers)
+[GIN-debug] POST   /api/transcode            --> go-restremer/api.handleTranscodeRequest (3 handlers)
+[GIN-debug] GET    /api/config               --> go-restremer/api.getConfig (3 handlers)
+[GIN-debug] GET    /api/network              --> go-restremer/api.getNetworkStats (3 handlers)
+[GIN-debug] POST   /api/system/settings      --> go-restremer/api.updateSystemSettings (3 handlers)
+[GIN-debug] GET    /api/debug                --> go-restremer/api.getDebugInfo (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2026/03/17 19:12:39 Logging to file: restreamer_2026-03-17.log
+2026/03/17 19:12:39 Starting Go RTSP Restreamer...
+2026/03/17 19:12:39 [StreamManager] Loaded 2 cameras into cache
+2026/03/17 19:12:39 RTSP Server listening on :8554
+2026/03/17 19:12:39 Streaming Mode: OnDemand=false
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> go-restremer/api.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /index.html               --> go-restremer/api.InitRouter.func2 (3 handlers)
+[GIN-debug] GET    /metrics                  --> go-restremer/api.InitRouter.WrapH.func3 (3 handlers)
+[GIN-debug] GET    /api/cameras              --> go-restremer/api.getCameras (3 handlers)
+[GIN-debug] POST   /api/cameras              --> go-restremer/api.createCamera (3 handlers)
+[GIN-debug] GET    /api/streams              --> go-restremer/api.getActiveStreams (3 handlers)
+[GIN-debug] GET    /api/status               --> go-restremer/api.getStatusSummary (3 handlers)
+[GIN-debug] POST   /api/transcode            --> go-restremer/api.handleTranscodeRequest (3 handlers)
+[GIN-debug] GET    /api/config               --> go-restremer/api.getConfig (3 handlers)
+[GIN-debug] GET    /api/network              --> go-restremer/api.getNetworkStats (3 handlers)
+[GIN-debug] POST   /api/system/settings      --> go-restremer/api.updateSystemSettings (3 handlers)
+[GIN-debug] GET    /api/debug                --> go-restremer/api.getDebugInfo (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2026/03/17 19:17:39 Logging to file: restreamer_2026-03-17.log
+2026/03/17 19:17:39 Starting Go RTSP Restreamer...
+2026/03/17 19:17:39 [StreamManager] Loaded 0 cameras into cache
+2026/03/17 19:17:39 RTSP Server listening on :8554
+2026/03/17 19:17:39 Streaming Mode: OnDemand=false
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> go-restremer/api.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /index.html               --> go-restremer/api.InitRouter.func2 (3 handlers)
+[GIN-debug] GET    /metrics                  --> go-restremer/api.InitRouter.WrapH.func3 (3 handlers)
+[GIN-debug] GET    /api/cameras              --> go-restremer/api.getCameras (3 handlers)
+[GIN-debug] POST   /api/cameras              --> go-restremer/api.createCamera (3 handlers)
+[GIN-debug] GET    /api/streams              --> go-restremer/api.getActiveStreams (3 handlers)
+[GIN-debug] GET    /api/status               --> go-restremer/api.getStatusSummary (3 handlers)
+[GIN-debug] POST   /api/transcode            --> go-restremer/api.handleTranscodeRequest (3 handlers)
+[GIN-debug] GET    /api/config               --> go-restremer/api.getConfig (3 handlers)
+[GIN-debug] GET    /api/network              --> go-restremer/api.getNetworkStats (3 handlers)
+[GIN-debug] POST   /api/system/settings      --> go-restremer/api.updateSystemSettings (3 handlers)
+[GIN-debug] GET    /api/debug                --> go-restremer/api.getDebugInfo (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2026/03/17 19:18:12 Logging to file: restreamer_2026-03-17.log
+2026/03/17 19:18:12 Starting Go RTSP Restreamer...
+2026/03/17 19:18:12 [StreamManager] Loaded 1 cameras into cache
+2026/03/17 19:18:12 RTSP Server listening on :8554
+2026/03/17 19:18:12 Streaming Mode: OnDemand=false
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> go-restremer/api.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /index.html               --> go-restremer/api.InitRouter.func2 (3 handlers)
+[GIN-debug] GET    /metrics                  --> go-restremer/api.InitRouter.WrapH.func3 (3 handlers)
+[GIN-debug] GET    /api/cameras              --> go-restremer/api.getCameras (3 handlers)
+[GIN-debug] POST   /api/cameras              --> go-restremer/api.createCamera (3 handlers)
+[GIN-debug] GET    /api/streams              --> go-restremer/api.getActiveStreams (3 handlers)
+[GIN-debug] GET    /api/status               --> go-restremer/api.getStatusSummary (3 handlers)
+[GIN-debug] POST   /api/transcode            --> go-restremer/api.handleTranscodeRequest (3 handlers)
+[GIN-debug] GET    /api/config               --> go-restremer/api.getConfig (3 handlers)
+[GIN-debug] GET    /api/network              --> go-restremer/api.getNetworkStats (3 handlers)
+[GIN-debug] POST   /api/system/settings      --> go-restremer/api.updateSystemSettings (3 handlers)
+[GIN-debug] GET    /api/debug                --> go-restremer/api.getDebugInfo (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
